@@ -16,9 +16,18 @@ if (process.argv.length <= 2) {
 
 size = parseInt(process.argv[2], 10)
 
+<<<<<<< HEAD
 for (let i = 0; i < size; i++) {
     for (let j = 0; j < size; j++) {
         process.stdout.write("#");
     }
     process.stdout.write("\n");
 }
+=======
+for (let i = 0 ; i < size ; i ++) {
+    for (let j = 0 ; j < size ; j ++) {
+        process.stdout.write("#");
+    }
+    process.stdout.write("\n");
+}
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c

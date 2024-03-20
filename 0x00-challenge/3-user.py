@@ -42,7 +42,12 @@ class User():
         else:
             self.__password = hashlib.md5(pwd.encode()).hexdigest().lower()
 
+<<<<<<< HEAD
     def is_valid_password(self, pwd):
+=======
+
+    def is_valid_password(self, pwd):    
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c
         """
         Valid password:
         - `False` if `pwd` is `None`
@@ -56,7 +61,10 @@ class User():
             return False
         return hashlib.md5(pwd.encode()).hexdigest().lower() == self.__password
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c
 if __name__ == '__main__':
     print("Test User")
 
@@ -100,4 +108,8 @@ password")
 
     if user_2.is_valid_password("No pwd"):
         print("is_valid_password should return False if no password set \
+<<<<<<< HEAD
 before")
+=======
+before")
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c

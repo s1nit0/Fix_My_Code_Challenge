@@ -20,7 +20,11 @@ ARGV.each do |arg|
         if result[i] < i_arg
             i += 1
         else
+<<<<<<< HEAD
             result.insert(i, i_arg)
+=======
+            result.insert(i , i_arg)
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c
             is_inserted = true
             break
         end
@@ -28,4 +32,8 @@ ARGV.each do |arg|
     result << i_arg if !is_inserted
 end
 
+<<<<<<< HEAD
 puts result
+=======
+puts result
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c

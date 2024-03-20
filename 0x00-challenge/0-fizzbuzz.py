@@ -17,6 +17,10 @@ def fizzbuzz(n):
 
     tmp_result = []
     for i in range(1, n + 1):
+<<<<<<< HEAD
+=======
+
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c
         if (i % 3) == 0 and (i % 5) == 0:
             tmp_result.append("FizzBuzz")
         elif (i % 3) == 0:
@@ -36,4 +40,8 @@ if __name__ == '__main__':
         sys.exit(1)
 
     number = int(sys.argv[1])
+<<<<<<< HEAD
     fizzbuzz(number)
+=======
+    fizzbuzz(number)
+>>>>>>> 20c2676d29b632b43449dc71d579971ba57e966c
